@@ -1,0 +1,761 @@
+/*Estilos generales */
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+
+* {
+    font-family: "Be Vietnam Pro", sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: solid 1px yellow;
+}
+
+:root {
+    --rojoBrillante: rgb(242, 95, 58);
+    --azulOscuro: rgb(35, 44, 81);
+    --azulGrisáceoOscuro: rgb(143, 148, 167);
+    --azulMuyOscuro: rgb(29, 30, 37);
+    --rojoMuyPálido: rgb(255, 239, 234);
+    --varianteGrisClaro: rgb(249, 249, 249);
+
+}
+
+/*Estilos body */
+
+body {
+    background-image: url("../img/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: 62.5rem -12.5rem;
+width: 100%;
+background-size: 60%;
+}
+
+main {
+    background-image: url("../img/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: -31.25rem 62.5rem;
+}
+
+
+
+
+/* Estilo header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.69rem;
+    align-items: center;
+   /* margin: 4.69rem 10.31rem;*/
+    padding: 2rem;
+    margin-left: 7rem;
+    margin-right: 10rem;
+
+}
+
+.logo {
+    width: 9em;
+    height: 1.5em;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    gap: 2rem;
+}
+
+
+.header nav ul li a:hover {
+    opacity: 50%;
+    }
+
+    /*
+    .header nav ul li a:hover{
+        opacity: 50%;
+    }
+*/
+.nav-label  {
+    display: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--azulMuyOscuro);
+    font-weight: 500;
+    font-size: 0.85em;
+    display: flex;
+    gap: 2rem;
+
+}
+
+
+.boton-inicio {
+
+    background-color: var(--rojoBrillante);
+    width: 8.37em;
+    height: 2.75em;
+    border-radius: 3em;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.boton-tres:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
+    background-color: #f04116;
+}
+
+.boton-format {
+    text-decoration: none;
+    color: var(--varianteGrisClaro);
+}
+
+/*Estilos home */
+
+.estilos-home {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    gap: 3rem;
+}
+
+
+.estilo-imagen {
+    display: flex;
+    width: 50%;
+    min-width: 290px;
+    
+}
+
+.estilo-imagen.uno {
+    flex-direction: column;
+}
+
+/*.estilo-imagen1 {
+    width:60%;
+    min-width: 290px;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+}*/
+
+.estilo-imagen.dos {
+    display: flex;
+    width: 40%;
+    min-width: 290px;
+}
+.estilo-imagen-sub {
+    width:100%;
+    min-width: 290px;
+    display: flex;
+    
+}
+
+h1 {
+    font-size: 3.62rem;
+    font-weight: 700;
+    margin: 0px;
+    color: var(--azulOscuro);
+    letter-spacing: -0.035rem;
+}
+
+.home-p {
+
+    font-weight: 500;
+    font-size: 1.03rem;
+    margin: 1.75rem 0px;
+    color: var(--azulGrisáceoOscuro);
+    line-height: 157.1%;
+    width: 23.12rem;
+}
+
+.boton-inicio-dos {
+
+    background-color: var(--rojoBrillante);
+    width: 8.37em;
+    height: 2.75em;
+    border-radius: 3em;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+/*Estilos about us */
+
+
+
+.estilos-aboutus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 7rem;
+    margin-right: 9rem;
+
+}
+
+
+
+.estilos-aboutus h2 {
+    color: var(--azulOscuro);
+    font-weight: 700;
+    font-size: 2.25rem;
+    width: 433px;
+    height: 88px;
+    margin-left: 2rem;
+    display: flex;
+}
+
+.aboutus-ph {
+display: flex;
+
+    font-weight: 500;
+    font-size: 1.03rem;
+   margin: 1.75rem 0rem;
+    color: var(--azulGrisáceoOscuro);
+    line-height: 157.1%;
+    width: 25rem;
+    padding-left: 2rem;
+    
+}
+
+.titulo-aboutus {
+    color: var(--azulOscuro);
+}
+
+.button-aboutus {
+    background-color: var(--rojoBrillante);
+    width: 4rem;
+    height: 2.75em;
+    border-radius: 3em;
+    color: var(--varianteGrisClaro);
+    border: none;
+
+}
+
+/*
+.order-aboutusfull {
+    margin-left: 25rem;
+}*/
+
+.order-aboutus {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    padding-right: 5rem;
+    /*margin-right: 6em;*/
+
+}
+
+.aboutus-p {
+
+    font-weight: 500;
+    font-size: 1.03rem;
+    margin: 1.75rem 0px;
+    color: var(--azulGrisáceoOscuro);
+    width: 40rem;
+    padding-left: 5em;
+    line-height: 166%;
+    width: 35rem;
+
+}
+
+
+
+
+/*Estilos tarjetas */
+
+.testimonios {
+    margin: 5.69rem 0rem 5.69rem 0rem;
+
+}
+
+.testimonios2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 290px
+
+}
+ .nombre-testimonios {
+    color: var(--azulOscuro);
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+.tarjeta img {
+    width: 4.37rem;
+    height: 4.37rem;
+    position: relative;
+    top: -2.18rem;
+
+}
+
+.testimonios-title {
+    text-align: center;
+    margin-bottom: 8rem;
+
+
+}
+
+.nombre-testimonios {
+    color: var(--azulOscuro);
+
+}
+
+.boton-inicio2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/*Estilos barra bottom */
+
+.barra-bottom {
+    background-color: var(--rojoBrillante);
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /*padding: 4.69rem 9.12rem 4.69rem 10.31rem;*/
+    font-weight: 500;
+    width: 100%;
+    background-image: url(../img/bg-simplify-section-desktop.svg);
+
+}
+
+
+.texto-bb {
+    color: var(--varianteGrisClaro);
+    font-size: 2rem;
+    display: flex;
+    font-weight: 700;
+    width: 25%;
+    margin-left: 10rem;
+
+
+
+}
+
+.boton-bb {
+    background-color: var(--rojoMuyPálido);
+    width: 8.37em;
+    height: 2.75em;
+    border-radius: 3em;
+    color: var(--rojoBrillante);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 10rem;
+}
+
+.boton-cuatro:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
+    background-color: #FAFAFA;
+}
+
+.boton-format-bb {
+    text-decoration: none;
+    color: var(--rojoBrillante);
+}
+
+/*Estilos footer */
+
+/* iconos rss y logo*/
+
+footer {
+   /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem 9rem 0rem 10rem;*/
+    background-color: #1E1E26;
+    /*margin-bottom: 0px;
+    flex-direction: column;*/
+    /*height: auto;*/
+   /*padding: 3rem;*/
+    padding: 4rem 9rem 0rem 10rem;
+}
+
+
+.cajafooter0 {
+    display: flex;
+    justify-content: space-between;
+    /*height: 4rem;*/
+
+}
+.cajafooter1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 4rem;
+    height:max-content;
+
+}
+
+.logoenfooter {
+    display: flex;
+}
+
+.rrss {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.rrss i {
+    color: #FAFAFA;
+    font-size: 1.25rem;
+}
+
+.rrss a i:hover {
+    color: #F3603B;
+    }
+
+/*secciones en footer*/
+
+.cajafooter2 {
+
+   /* width: 24,54rem;
+    height: 8,83rem;*/
+    display: flex;
+
+}
+
+.seccionesfooter0 {
+    display: flex;
+    gap:5rem;
+}
+.seccionesfooter {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin: 0rem 0rem 3rem 0rem;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.secciones-footer-espec {
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    
+    line-height: 100%;
+}
+
+.cajafooter4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5rem;
+
+}
+
+.p-footer {
+    color: var(--azulGrisáceoOscuro);
+    font-size: 0.75rem;
+    display: flex;
+    padding-top: 2rem;
+}
+
+.boton-form {
+
+    background-color: var(--rojoBrillante);
+    width: 3.37em;
+    height: 2.75em;
+    border-radius: 2em;
+    color: var(--varianteGrisClaro);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding left: 3rem;
+}
+
+.formatoform {
+    border-radius: 2rem;
+    height: 2.75rem;
+
+}
+
+.p-form {
+    color: var(--rojoBrillante);
+    font-size: 0.5rem;
+    padding-left: 1rem;
+    font-style: italic;
+}
+
+
+/* RESPONSIVE MOBILE */
+
+@media (max-width: 400px) {
+
+
+/*Body Img mobile*/
+
+
+
+/*Estilo Nav mobile */
+.nav-list {
+    display: none;
+}
+
+.nav-label {
+    display: initial;
+}
+
+.boton-inicio {
+    display: none;
+}
+
+/*Estilo Header Mobile*/
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4.69rem;
+    align-items: center;
+    padding: 2rem;
+    gap: 9rem;
+    margin-left: 9rem;
+    background-image: url("../img/bg-simplify-section-mobile.svg");
+
+}
+
+/*Estilo home Mobile*/
+
+.estilos-home {
+
+
+  flex-direction: column-reverse;
+
+}
+
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.estilo-imagen.uno {
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-p {
+    text-align: center;
+    width: 20.12rem;
+    margin: 1.75rem 0rem 1.75rem 0rem;
+}
+
+/*Estilo about us Mobile*/
+
+
+
+/*
+.estilos-aboutus h2 {
+    text-align: center;
+    display: flex;
+    width: 100%x;
+    min-width: 290px;
+    margin-left: 1.5rem;
+
+}*/
+
+
+.estilos-aboutus {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /*width: 375px;*/
+
+}
+
+.estilos-aboutus h2 {
+    width: 100%;
+}
+.title-aboutus {
+    width: 100%;
+
+}
+.aboutus-ph {
+    text-align: center;
+    width: 20.12rem;
+    
+   /* margin: 1.75rem 0rem 1.75rem 0rem;*/
+}
+
+/* About us second article mobile*/
+
+.order-aboutusfull {
+    width: 375px;
+}
+
+
+
+.button-aboutus {
+    background-color: var(--rojoBrillante);
+    width: 4rem;
+    height: 2.75em;
+    border-radius: 3em;
+    color: var(--varianteGrisClaro);
+    border: none;
+    margin-left: 1rem;
+
+}
+
+
+.titulo-aboutus {
+    background-color: rgb(242, 95, 58, 0.25);
+}
+
+/*
+.order-aboutusfull {
+    margin-left: 25rem;
+}*/
+
+.order-aboutus {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    padding-right: 5rem;
+    /*margin-right: 6em;*/
+    
+
+}
+
+.aboutus-p {
+
+    font-weight: 500;
+    font-size: 1.03rem;
+    margin: 1.75rem 0px;
+    color: var(--azulGrisáceoOscuro);
+    width: 40rem;
+    padding-left: 5em;
+    line-height: 166%;
+    width: 90%;
+
+}
+
+/*Estilo Tarjetas Mobile*/
+
+.nombre-testimonio {
+    background-color:none;
+}
+
+
+.tarjeta {
+padding:2rem;
+width: 375px;
+}
+
+/*Estilo Barra Bottom Mobile*/
+
+.barra-bottom {
+    text-align: center;
+    width: auto;
+    height: auto;
+
+}
+
+.texto-bb {
+    width: 100%;
+    margin: 3rem;
+    justify-content: center;
+   
+}
+
+.boton-bb, .boton-cuatro {
+    margin-bottom: 3rem;
+    margin-left: 7rem;
+
+}
+
+/*Estilo FOOTER Mobile*/
+
+footer { 
+  display: flex;
+    flex-direction: column;
+    /*width: 375px;
+    height: 400px;*/
+    width: 100%;
+}
+
+
+.cajafooter0 {
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+   /* width: 375px;*/
+    flex-direction: column-reverse;
+
+}
+
+.cajafooter1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    gap: 4rem;
+    /*height:max-content;*/
+}
+
+.cajafooter2 {
+    
+}
+
+.cajafooter4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5rem;
+    margin-left: -15rem;
+    width: 375px;
+
+}
+
+.seccionesfooter0 {
+    display: flex;
+    flex-direction: row;
+
+}
+.seccionesfooter {
+padding: 2rem;
+}
+
+.rrss {
+
+}
+
+form {
+    display: flex;
+}
+.boton-form {
+
+}
+
+form p {
+    display: none;
+
+}
+
+.p-footer {
+
+}
+
+}
